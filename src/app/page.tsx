@@ -44,6 +44,7 @@ export default function Home() {
               title={"Muffin's Mob Vote 2023"}
               description={"Developed Minecraft mobs from Mob Vote 2023 to self-test Minecraft mod development skill using IntelliJ, Blockbench and Aseprite. Open-sources on Github."}
               color={"#58a9a2"}
+              imgsrc={""}
             />
 
             <h1 className={"text-lg"}>Application</h1>
@@ -52,6 +53,7 @@ export default function Home() {
               title={"Cooking Simple"}
               description={"Developed a social mobile application for posting and sharing food recipes with various feature such as view history, mark as favorite and like."}
               color={"#c97137"}
+              imgsrc={""}
             />
             
 
