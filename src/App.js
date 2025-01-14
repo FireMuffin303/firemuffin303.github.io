@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Minecraft from './pages/Minecraft'
 import ArtModel from './pages/ArtModel';
@@ -9,7 +9,7 @@ import Game from './pages/Game'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/minecraft" element={<Minecraft/>}/>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/other" element={<Misc/>}/>
         <Route path="/game" element={<Game/>}/>
       </Routes>
-    </Router>
+    </BrowserRouter>
       
   );
 }
