@@ -9,7 +9,7 @@ import Game from './pages/Game'
 
 function App() {
   return (
-    <HashRouter>
+    
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/minecraft" element={<Minecraft/>}/>
@@ -19,7 +19,6 @@ function App() {
         <Route path="/other" element={<Misc/>}/>
         <Route path="/game" element={<Game/>}/>
       </Routes>
-    </HashRouter>
   );
 }
 
